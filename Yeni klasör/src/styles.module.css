@@ -1,0 +1,178 @@
+/* add css module styles here (optional) */
+
+.test {
+  margin: 2em;
+  padding: 0.5em;
+  border: 2px solid #000;
+  font-size: 2em;
+  text-align: center;
+}
+
+/* CSS */
+.crazy {
+  align-items: center;
+  background-image: linear-gradient(101deg, #f385 40%, #fc8);
+  border: 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-family: "Codec cold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  height: 54px;
+  justify-content: center;
+  letter-spacing: .4px;
+  line-height: 1;
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.crazy:active {
+  outline: 0;
+}
+
+.crazy:hover {
+  outline: 0;
+}
+
+.crazy span {
+  transition: all 200ms;
+}
+
+.crazy:hover span {
+  transform: scale(.9);
+  opacity: .75;
+}
+
+@media screen and (max-width: 991px) {
+  .crazy {
+    font-size: 15px;
+    height: 50px;
+  }
+
+  .crazy span {
+    line-height: 50px;
+  }
+}
+
+
+/* CSS orange */
+.orange {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(2, 3, 4, .05) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.orange:hover,
+.orange:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(2, 3, 4, .05) 0 4px 12px;
+}
+
+.orange:hover {
+  transform: translateY(-1px);
+}
+
+.orange:active {
+  background-color: #c85000;
+  box-shadow: rgba(2, 3, 4, .05) 0 2px 4px;
+  transform: translateY(0);
+}
+
+/* CSS green*/
+.green {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(49, 125, 49, .5) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.green:hover {
+  box-shadow: rgba(49, 125, 49, .5) 0 -25px 18px -14px inset, rgba(49, 125, 49, .5) 0 1px 2px, rgba(49, 125, 49, .5) 0 2px 4px, rgba(49, 125, 49, .5) 0 4px 8px, rgba(49, 125, 49, .5) 0 8px 16px, rgba(49, 125, 49, .5) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+  /* CSS yellow*/
+.yellow {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.yellow:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.yellow:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
